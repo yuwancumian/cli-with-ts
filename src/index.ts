@@ -3,7 +3,7 @@ import * as React from "react";
 
 class Test extends React.Component {
   public render() {
-    return 123 as Box< / Box > ;
+    return <Box> 123 < /Box>;
   }
 }
-export default Test;
+const app = render(<Test />);
