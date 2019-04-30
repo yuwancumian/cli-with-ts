@@ -1,5 +1,9 @@
-import aaa from "./utils/aaa";
-import { bbb } from "./utils/bbb";
+import { Box, render } from "ink";
+import * as React from "react";
 
-aaa();
-bbb();
+class Test extends React.Component {
+  public render() {
+    return 123 as Box< / Box > ;
+  }
+}
+export default Test;
